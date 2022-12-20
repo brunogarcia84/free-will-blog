@@ -1,0 +1,24 @@
+:root {
+  --grey90: hsl(250, 10%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --dark-blue: hsl(210, 9%, 31%);
+  --lighy-greyish-blue: hsl(309, 7%, 46%);
+  --grey77: hsl(0, 0%, 77%);
+  --baltic-sea: hsl(210, 10%, 23%);
+  --white-pepper: hsl(30, 53%, 64%);
+  --blue-charcoal: hsl(210, 11%, 15%);
+  --alice-blue: hsl(210, 17%, 98%);
+
+  --font-family: "Open Sans", sans-serif;
+
+  --light: 300;
+  --regular: 400;
+  --bold: 700;
+  --black: 900;
+
+  --size-xs: 1rem;
+  --size-sm: 2.5rem;
+  --size-md: 3rem;
+  --size-lg: 4rem;
+  --size-xl: 5rem;
+}

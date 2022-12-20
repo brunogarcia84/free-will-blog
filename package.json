@@ -1,0 +1,24 @@
+{
+  "name": "free-will-blog",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Free Will Blog",
+  "main": "app.js",
+  "scripts": {
+    "start": "node bin/www.js",
+    "dev": "nodemon bin/www.js"
+  },
+  "author": "Bruno Garcia",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
