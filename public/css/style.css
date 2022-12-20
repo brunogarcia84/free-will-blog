@@ -1,7 +1,20 @@
 @import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+@import url(./variables.css);
 
 body {
   font-family: var(--font-family);
   background-color: var(--grey90);
   color: var(--blue-charcoal);
+}
+
+h1 {
+  font-size: var(--size-lg);
+  font-weight: var(--black);
+  margin: var(--size-lg) auto;
+  text-align: center;
+}
+
+.coming-soon-illustration {
+  display: block;
+  margin: var(--size-lg) auto;
 }

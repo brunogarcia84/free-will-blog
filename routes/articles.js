@@ -3,7 +3,7 @@ const router = new Router();
 
 // Getting all articles from the blog
 router.get("/", (req, res) => {
-  res.send("Articles Page");
+  res.render("articles");
 });
 
 // Creating a new article

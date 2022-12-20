@@ -18,7 +18,7 @@ import contactRoute from "./routes/contact.js";
 
 // Setting the views of the application with EJS template engine
 app.set("view engine", "ejs");
-app.set("views", "views");
+app.set("views", "view");
 app.set("layout", "layouts/layout");
 app.use(expressLayouts);
 

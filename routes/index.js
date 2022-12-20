@@ -3,7 +3,7 @@ const router = new Router();
 
 // Route for the root of the application
 router.get("/", (req, res) => {
-  res.send("Home Page");
+  res.render("index");
 });
 
 export default router;
