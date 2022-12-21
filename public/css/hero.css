@@ -1,11 +1,38 @@
-.hero {
-  background-image: url(../img/free-will-hero-option2.jpg);
+#hero {
+  background-image: url(../img/free-will-hero-option1.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   color: var(--grey90);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  padding: calc(var(--size-xl) * 3) calc(var(--size-xs) + 15px);
+  padding: calc(var(--size-xl) * 3) calc(var(--size-sm));
+}
+
+#hero .block {
+  width: calc(var(--size-xl) * 11.5);
+}
+
+#hero .section-card,
+.section-title {
+  margin: var(--size-xs) 0;
+  font-weight: var(--bold);
+}
+
+#hero .section-card {
+  display: inline-block;
+  background-color: var(--grey77-alt);
+  padding: calc(var(--size-xs) - 8px);
+  border-radius: calc(var(--size-xs) - 8px);
+}
+
+#hero .inner-block,
+.section-card {
+  display: inline-block;
+}
+
+#hero .section-title {
+  font-size: var(--size-lg);
+}
+
+#hero .datetime {
+  display: inline-block;
+  margin-right: var(--size-xs);
 }

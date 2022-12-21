@@ -1,0 +1,57 @@
+#topics {
+  margin-bottom: calc(var(--size-xl) * 2);
+}
+
+#topics .section-filter,
+.filter-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--size-xs) 0;
+}
+
+#topics .list-item > a {
+  color: var(--blue-charcoal);
+  transition: ease-in-out 0.2s;
+}
+
+#topics .list-item > a:hover {
+  color: var(--white-pepper);
+}
+
+#topics .section-filter_view-all > a {
+  color: var(--blue-charcoal);
+  font-weight: var(--bold);
+  transition: ease-in-out 0.2s;
+}
+
+#topics .section-filter_view-all > a:hover {
+  color: var(--white-pepper);
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cards .cards-posts {
+  max-width: calc(var(--size-xl) * 4);
+}
+
+#cards .cards-posts .section_illustration > img {
+  display: block;
+  margin: var(--size-xs) 0;
+}
+
+#cards .cards-posts .section-title {
+  font-size: calc(var(--size-xs) * 1.5);
+}
+
+#cards .cards-posts .datetime {
+  font-size: calc(var(--size-xs) - 4px);
+}
+
+#cards .cards-posts .section-text {
+  line-height: calc(var(--size-xs) + 5px);
+}
