@@ -1,5 +1,7 @@
 @import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
 @import url(./variables.css);
+@import url(./header.css);
+@import url(./hero.css);
 
 body {
   font-family: var(--font-family);
@@ -7,7 +9,17 @@ body {
   color: var(--blue-charcoal);
 }
 
-h1 {
+a {
+  color: var(--grey90);
+  text-decoration: none;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+}
+
+.coming-soon {
   font-size: var(--size-lg);
   font-weight: var(--black);
   margin: var(--size-lg) auto;

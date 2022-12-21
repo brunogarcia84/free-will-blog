@@ -1,0 +1,11 @@
+.hero {
+  background-image: url(../img/free-will-hero-option2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: var(--grey90);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: calc(var(--size-xl) * 3) calc(var(--size-xs) + 15px);
+}
