@@ -39,6 +39,7 @@
 
 .social-media-list {
   border-right: 1px solid var(--grey90);
+  margin-right: var(--size-xl);
 }
 
 .social-media-list > .list-item:nth-child(3) {

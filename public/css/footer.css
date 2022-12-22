@@ -1,0 +1,37 @@
+.footer {
+  background-color: var(--baltic-sea);
+  color: var(--grey90);
+  display: flex;
+  justify-content: space-between;
+  padding: calc(var(--size-xl) * 2);
+}
+
+.footer .contact-details .footer-title,
+.footer-email,
+.footer-phone {
+  margin: var(--size-xs) 0;
+}
+
+.footer .contact-details .footer-title {
+  font-weight: var(--bold);
+}
+
+.footer-list {
+  display: flex;
+}
+
+.subfooter-title {
+  text-align: center;
+}
+
+.footer-list .list-item {
+  margin: var(--size-xs);
+}
+
+.subfooter {
+  text-align: center;
+  background-color: var(--dark-blue);
+  color: var(--grey90);
+  font-weight: var(--bold);
+  padding: var(--size-sm);
+}
